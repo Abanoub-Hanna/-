@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="FCI_Impact Crew Team" content="mave" />
+    <meta name="description" content="Doors Opening time and Closing" />
+    <title>Time to Open</title>
+    <link rel="icon" href="D:\html project\project resturant\image\tacos_tray.jpg" type="image/x-icon" />
+    <!--<link rel="stylesheet" href="style hours.css"> -->
+    <style>
+      html {
+     scroll-behavior: smooth;
+     }
+            
+      body {
+          font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #e0e0e0;
+          color: #333;
+      }
+
+      header {
+          background: linear-gradient(#ff9422 10%,#dbdbdb);
+          color: #ffffff;
+          padding: 50px 50px;
+          text-align: center;
+          
+      }
+
+      header h1 {
+          margin: 0;
+          font-size: 3em;
+          letter-spacing: 2px;
+      }
+
+      nav ul {
+          list-style: none;
+          list-style-type: none; 
+          padding: 0;
+          margin: 20px 0;
+          display: flex;
+          justify-content: center;
+      }
+
+      nav li {
+          margin: 10px 15px;
+          
+      }
+
+      nav a {
+          color: #36ca00;
+          text-decoration: none;
+          font-size: 1.5em;
+          font-weight: bold;
+          position: relative;
+          overflow: hidden;
+      }
+
+      nav a::before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -5px;
+          width: 0;
+          height: 3px;
+          background-color: #1e00ff;
+          transition: width 0.3s ease-in-out;
+      }
+
+      nav a:hover::before {
+          width: 100%;
+      }
+
+      nav a:hover {
+          color: #1e00ff;
+      }
+
+      figure {
+          text-align: center;
+          margin: 20px 0;
+      }
+
+      figure img {
+          border-radius: 20px;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+
+      figcaption {
+          font-size: 1.2em;
+          color: #333333;
+          margin-top: 20px;
+      }
+
+      main {
+          max-width: 900px;
+          margin: 50px auto;
+          padding: 30px;
+          background-color: #fff;
+          border-radius: 30px;
+          box-shadow: 10px 0 40px rgba(0, 0, 0, 1);
+      }
+
+      main p {
+          font-size: 1.4em;
+          text-align: center;
+          color: #e91e63;
+      }
+
+      dl dt {
+          font-size: 1.2em;
+          font-weight: bold;
+          color: #333;
+      }
+
+      dl dd {
+          font-size: 1.1em;
+          margin: 0 0 20px 30px;
+          color: darkred;
+      }
+
+      dl p {
+          text-align: center;
+      }
+
+      a {
+          color: #ff5100;
+          text-decoration: none;
+      }
+
+      a:hover {
+          text-decoration: underline;
+          color: #00cd1b;
+      }
+
+      footer {
+          text-align: center;
+          padding: 10px 0;
+          background-color: #333;
+          color: white;
+      }
+
+      footer a {
+          color: #ff9800;
+          text-decoration: none;
+      }
+
+      footer a:hover {
+          text-decoration: underline;
+      }
+
+      .name{
+          font-weight: bold;
+          color: #00bfff;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fuel up with fresh tacos! Open daily at 9:00 AM</h1>
+      <nav>
+        <ul>
+          <li>
+            <a 
+             href="index.html" 
+             title="Go Home" 
+             style="text-decoration: none">
+             Home
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="D:\html project\project resturant\image\tacos_tray.jpg"
+          alt="A tray of tasty Tacos"
+          title="We love trays of Tacos!"
+          width="400"
+          height="267"
+        />
+        <figcaption><i>Tray of tasty Tacos</i></figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <p>
+        <b><big> We are open 7 days a Week! </big></b>
+      </p>
+      <dl>
+        <dt><b>Sunday-Thursday</b></dt>
+        <dd>11am-9pm</dd>
+        <dt><b>Friday-Saturday</b></dt>
+        <dd>11am-11pm</dd>
+        <dt><b>Holidays</b></dt>
+        <dd>Closed on major holidays</dd>
+        <p>
+          <a 
+            href="#" 
+            style="text-decoration: none" 
+            title="Back To Top">
+            Back To Top
+          </a>
+        </p>
+      </dl>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        copyright &copy; 𝒯𝒶𝒞𝑜 𝐿𝑜𝒦𝑜
+        <br />
+        <a
+          href="contact.html"
+          title="Go To Contact Form"
+          style="text-decoration: none"
+          >Contact With Us</a
+        >
+      </p>
+      <p class="name">
+        &copy; Abanoub Hanna
+      </p>
+
+      <p></p>
+    </footer>
+  </body>
+</html>
